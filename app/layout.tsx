@@ -17,6 +17,13 @@ export default function RootLayout({
         <nav className="border-b bg-white sticky top-0 z-10">
           <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
             <a href="/" className="flex items-center gap-3">
+              <img
+                src="/mascot.jpg"
+                alt="Pot Boy"
+                width={40}
+                height={40}
+                className="rounded-full"
+              />
               <span className="text-xl font-bold text-orange-500">
                 Pot Boy
               </span>
