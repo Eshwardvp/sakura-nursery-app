@@ -1,9 +1,30 @@
-<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="false">
   <rect width="120" height="120" fill="transparent" />
-  <g transform="translate(20,18)">
-    <path d="M10 8c0-4 2-6 6-6h48c4 0 6 2 6 6v6H10V8z" fill="#2F855A"/>
-    <path d="M6 20c0-2 2-4 4-4h56c2 0 4 2 4 4v28c0 6-6 10-12 10H18c-6 0-12-4-12-10V20z" fill="#38A169"/>
-    <path d="M16 28h48v6H16z" fill="#276749" opacity="0.9"/>
-    <ellipse cx="34" cy="52" rx="18" ry="4" fill="#2F855A" opacity="0.9"/>
+  <!-- pot -->
+  <g transform="translate(10,18)">
+    <path d="M12 18c0-3 2-5 5-5h66c3 0 5 2 5 5v4H12v-4z" fill="#2F855A"/>
+    <path d="M8 28c0-2 2-4 4-4h72c2 0 4 2 4 4v22c0 5-5 9-11 9H19c-6 0-11-4-11-9V28z" fill="#38A169"/>
+    <path d="M22 36h56v6H22z" fill="#276749" opacity="0.95"/>
+    <ellipse cx="50" cy="70" rx="26" ry="5" fill="#2F855A" opacity="0.95"/>
+  </g>
+
+  <!-- stem and leaves -->
+  <g transform="translate(54,16)">
+    <path d="M0 18 C -2 10, -6 6, -8 -2" stroke="#276749" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M6 18 C 4 10, 8 6, 10 -2" stroke="#276749" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M-4 12 C 2 8, 8 10, 10 6 C 12 2, 8 0, 4 2 Z" fill="#2F855A" opacity="0.95" transform="translate(-6,10) rotate(-20)"/>
+    <path d="M8 12 C 2 8, -4 10, -6 6 C -8 2, -4 0, 0 2 Z" fill="#2F855A" opacity="0.95" transform="translate(6,10) rotate(20)"/>
+  </g>
+
+  <!-- flower -->
+  <g transform="translate(54,4)">
+    <circle cx="0" cy="0" r="6" fill="#F97316" />
+    <g fill="#FDBA74">
+      <ellipse rx="4" ry="8" transform="rotate(0) translate(0,-12)"/>
+      <ellipse rx="4" ry="8" transform="rotate(72) translate(0,-12)"/>
+      <ellipse rx="4" ry="8" transform="rotate(144) translate(0,-12)"/>
+      <ellipse rx="4" ry="8" transform="rotate(216) translate(0,-12)"/>
+      <ellipse rx="4" ry="8" transform="rotate(288) translate(0,-12)"/>
+    </g>
   </g>
 </svg>
