@@ -34,11 +34,26 @@ export default function RootLayout({
               <a href="/daily-drop" className="hover:text-orange-500">
                 Daily Drop
               </a>
+              <a href="/seasonal-plants" className="hover:text-orange-500">
+                Seasonal
+              </a>
+              <a href="/premium-plants" className="hover:text-orange-500">
+                Premium
+              </a>
+              <a href="/healthcare-plants" className="hover:text-orange-500">
+                Healthcare
+              </a>
+              <a href="/plant-equipment" className="hover:text-orange-500">
+                Equipment
+              </a>
+              <a href="/manures" className="hover:text-orange-500">
+                Manures
+              </a>
+              <a href="/attractive-stones" className="hover:text-orange-500">
+                Stones
+              </a>
               <a href="/admin" className="hover:text-orange-500">
                 Admin
-              </a>
-              <a href="/ops" className="hover:text-orange-500">
-                Ops
               </a>
             </div>
           </div>
