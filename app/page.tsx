@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -6,13 +5,7 @@ export default function Home() {
     <div className="mx-auto max-w-6xl px-4 py-8">
       <section className="text-center py-16">
         <div className="flex items-center justify-center gap-4">
-          <Image
-            src="/pot-green.svg"
-            alt="Pot Boy"
-            width={80}
-            height={80}
-            priority
-          />
+          <img src="/pot-green.svg" alt="Pot Boy" width={80} height={80} />
           <h1 className="text-4xl font-bold text-orange-500">
             Pot Boy
           </h1>
