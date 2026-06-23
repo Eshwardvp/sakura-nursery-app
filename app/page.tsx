@@ -7,14 +7,14 @@ export default function Home() {
       <section className="text-center py-16">
         <div className="flex items-center justify-center gap-4">
           <Image
-            src="/logo.png"
-            alt="Pot Boy Nursery"
+            src="/pot-green.svg"
+            alt="Pot Boy"
             width={80}
             height={80}
             priority
           />
           <h1 className="text-4xl font-bold text-orange-500">
-            Pot Boy Nursery
+            Pot Boy
           </h1>
         </div>
 
