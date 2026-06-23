@@ -17,8 +17,6 @@ export default function Home() {
         </div>
 
         <div className="mt-8 flex gap-4 justify-center">
-
-        <div className="mt-8 flex gap-4 justify-center">
           <Link
             href="/daily-drop"
             className="px-6 py-3 bg-orange-500 text-white rounded-lg hover:bg-orange-600 font-medium"
