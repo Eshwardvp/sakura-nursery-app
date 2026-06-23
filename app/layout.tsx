@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Sakura Nursery",
+  title: "Pot Boy Nursery",
   description: "Daily plant drops, white-glove delivery and home setup.",
 };
 
@@ -20,13 +20,13 @@ export default function RootLayout({
             <a href="/" className="flex items-center gap-3">
               <Image
                 src="/logo.png"
-                alt="Sakura Nursery"
+                alt="Pot Boy Nursery"
                 width={72}
                 height={72}
                 priority
               />
               <span className="text-xl font-bold text-orange-500">
-                Sakura Nursery
+                Pot Boy Nursery
               </span>
             </a>
 

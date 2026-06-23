@@ -8,13 +8,13 @@ export default function Home() {
         <div className="flex items-center justify-center gap-4">
           <Image
             src="/logo.png"
-            alt="Sakura Nursery"
+            alt="Pot Boy Nursery"
             width={80}
             height={80}
             priority
           />
           <h1 className="text-4xl font-bold text-orange-500">
-            Sakura Nursery
+            Pot Boy Nursery
           </h1>
         </div>
 
