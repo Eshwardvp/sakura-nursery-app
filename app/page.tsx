@@ -4,16 +4,19 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
       <section className="text-center py-16">
-        <div className="flex items-center justify-center gap-4">
-          <img src="/pot-green.svg" alt="Pot Boy" width={80} height={80} />
-          <h1 className="text-4xl font-bold text-orange-500">
-            Pot Boy
-          </h1>
+        <div className="flex flex-col items-center justify-center gap-6 md:flex-row md:gap-8">
+          <img src="/mascot.jpg" alt="Pot Boy" width={160} height={160} className="rounded-full shadow-lg" />
+          <div>
+            <h1 className="text-4xl font-bold text-orange-500">
+              Pot Boy
+            </h1>
+            <p className="mt-2 text-lg text-gray-600">
+              Daily plant drops • White-glove delivery • Home setup service
+            </p>
+          </div>
         </div>
 
-        <p className="mt-4 text-lg text-gray-600">
-          Daily plant drops • White-glove delivery • Home setup service
-        </p>
+        <div className="mt-8 flex gap-4 justify-center">
 
         <div className="mt-8 flex gap-4 justify-center">
           <Link
