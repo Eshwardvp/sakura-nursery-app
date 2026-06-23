@@ -36,6 +36,44 @@ export default function Home() {
             Admin Panel
           </Link>
         </div>
+        <div className="mt-6 flex gap-3 justify-center flex-wrap">
+          <Link
+            href="/seasonal-plants"
+            className="px-4 py-2 rounded-full border border-gray-200 hover:bg-gray-50 text-sm"
+          >
+            Seasonal
+          </Link>
+          <Link
+            href="/premium-plants"
+            className="px-4 py-2 rounded-full border border-gray-200 hover:bg-gray-50 text-sm"
+          >
+            Premium
+          </Link>
+          <Link
+            href="/healthcare-plants"
+            className="px-4 py-2 rounded-full border border-gray-200 hover:bg-gray-50 text-sm"
+          >
+            Healthcare
+          </Link>
+          <Link
+            href="/plant-equipment"
+            className="px-4 py-2 rounded-full border border-gray-200 hover:bg-gray-50 text-sm"
+          >
+            Equipment
+          </Link>
+          <Link
+            href="/manures"
+            className="px-4 py-2 rounded-full border border-gray-200 hover:bg-gray-50 text-sm"
+          >
+            Manures
+          </Link>
+          <Link
+            href="/attractive-stones"
+            className="px-4 py-2 rounded-full border border-gray-200 hover:bg-gray-50 text-sm"
+          >
+            Stones
+          </Link>
+        </div>
       </section>
     </div>
   );
